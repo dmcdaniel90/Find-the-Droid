@@ -5,13 +5,13 @@ This is a Star Wars themed version of the [JavaScript Tutorial - Create a Card G
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [Screenshot](#screenshot)
+- [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -33,12 +33,12 @@ but also:
 
 ### Links
 
-- GitHub Repo: [](https://your-solution-url.com)
+- GitHub Repo: [](https://github.com/dmcdaniel90/Find-the-Droid)
 - Live Site URL: [](https://your-live-site-url.com)
 
 ## My process
 
--Followed
+-Followed YouTube tutorial, debugging as needed by referencing MDN and instructor provided source code
 
 ### Built with
 
@@ -70,15 +70,19 @@ but also:
 
 Code snipperts:
 
-```html
-
-```
-
 ```css
-
+/* Interesting way of calculating width */
+.card-container {
+  width: calc(
+    var(--card-width-lg) * (var(--num-cards) / 2) + var(
+        --card-horizontal-space-lg
+      )
+  );
+}
 ```
 
 ```js
+//Randomization algorithm
 function randomizeCardPositions() {
   const random1 = Math.floor(Math.random() * numCards) + 1;
   const random2 = Math.floor(Math.random() * numCards) + 1;
