@@ -68,7 +68,7 @@ but also:
 - Using 3rd party web tools to generate CSS button and box-shadow stylings
 - What is JSON?
 
-Code snipperts:
+Code snippets:
 
 ```css
 /* Interesting way of calculating width */
