@@ -33,8 +33,8 @@ but also:
 
 ### Links
 
-- GitHub Repo: [](https://github.com/dmcdaniel90/Find-the-Droid)
-- Live Site URL: [](https://your-live-site-url.com)
+- [Github Repo](https://github.com/dmcdaniel90/Find-the-Droid)
+- [Live Site URL](https://dmcdaniel90.github.io/Find-the-Droid/)
 
 ## My process
 
